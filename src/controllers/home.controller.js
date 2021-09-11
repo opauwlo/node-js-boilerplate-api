@@ -1,5 +1,5 @@
 module.exports = {
   get: (req, res) => {
-    res.send({message: 'hello world!'});
+    res.send({message: `welcome to s'ipa :)`});
   }
 } 

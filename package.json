@@ -1,11 +1,12 @@
 {
   "name": "api-cli",
   "version": "1.0.0",
-  "main": "main.js",
+  "main": "src/main.js",
   "license": "MIT",
   "scripts": {
-    "start": "node main.js",
-    "dev": "nodemon main.js"
+    "start": "node ./src/main.js",
+    "dev": "nodemon ./src/main.js",
+    "test": "jest"
   },
   "dependencies": {
     "cookie-parser": "^1.4.5",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "jest": "^27.1.1",
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "supertest": "^6.1.6"
   }
 }

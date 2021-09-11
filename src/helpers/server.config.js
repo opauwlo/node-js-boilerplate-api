@@ -1,12 +1,8 @@
 const express = require("express");
+const app = express();
 
 // require("../models/db/config")
 require("dotenv").config();
-
-const app = express();
-
-//static
-app.use(express.static(__dirname + "/public"));
 
 app.use(
   express.urlencoded({
@@ -16,5 +12,15 @@ app.use(
 
 // use json
 app.use(express.json());
+
+//routes
+
+//home route
+const home = require('../routes/home');
+app.use('/', home);
+
+//hello route
+const hello = require('../routes/hello');
+app.use('/hello', hello);
 
 module.exports = app;
