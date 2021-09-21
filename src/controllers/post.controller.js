@@ -1,5 +1,5 @@
 module.exports = {
-  controller: {
+  postController: {
     post: async (req, res) => {
       try {
         await res.json({ message: 'welcome to s\'ipa POST ROUTER' });

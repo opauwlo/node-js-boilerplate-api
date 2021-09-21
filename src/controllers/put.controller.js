@@ -1,5 +1,5 @@
 module.exports = {
-  controller: {
+  putController: {
     put: async (req, res) => {
       try {
         await res.json({ message: 'welcome to s\'ipa PUT ROUTER' });

@@ -1,5 +1,5 @@
 module.exports = {
-  controller: {
+  deleteController: {
     delete: async (req, res) => {
       try {
         await res.json({ message: 'welcome to s\'ipa DELETE ROUTER' });
