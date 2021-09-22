@@ -7,21 +7,21 @@ const router = express.Router();
 // delete router
 const { deleteController } = require('../controllers/delete.controller');
 
-router.delete('/api/delete', deleteController.delete);
+router.delete('/delete', deleteController.delete);
 
 // get router
 const { getController } = require('../controllers/get.controller');
 
-router.get('/api/get', getController.get);
+router.get('/get', getController.get);
 
 // post router
 const { postController } = require('../controllers/post.controller');
 
-router.post('/api/post', postController.post);
+router.post('/post', postController.post);
 
 // put (update) router
 const { putController } = require('../controllers/put.controller');
 
-router.put('/api/put', putController.put);
+router.put('/put', putController.put);
 
 module.exports = router;
