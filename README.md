@@ -6,7 +6,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/opauwlo/sipa?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/opauwlo/sipa?style=for-the-badge)
 
-[gif show how this work](https://i.ibb.co/9YTQpVj/Peek-2021-09-22-18-03.gif)
+![gif show how this work](https://i.ibb.co/9YTQpVj/Peek-2021-09-22-18-03.gif)
 
 > this is a simple template for create apis with nodejs using mongo and JwT auth
 
