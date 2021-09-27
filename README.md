@@ -133,9 +133,3 @@ We thank the following people who contributed to this project:
 
 
 ## 😄 Be one of the contributors <br>
-
-## 📝 Licença
-
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
-
-[⬆ Voltar ao topo](#sipa)<br>
