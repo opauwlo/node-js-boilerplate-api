@@ -1,4 +1,4 @@
-# s'ipa your boilerplate (framework in the future) for Node.js api's
+# a template for Node.js api's
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/opauwlo/sipa?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/opauwlo/sipa?style=for-the-badge)
@@ -6,12 +6,12 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/opauwlo/sipa?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/opauwlo/sipa?style=for-the-badge)
 
-<img src="https://i.ibb.co/9YTQpVj/Peek-2021-09-22-18-03.gif" alt="gif show how this work">
+[gif show how this work](https://i.ibb.co/9YTQpVj/Peek-2021-09-22-18-03.gif)
 
-> s'ipa is a boilerplate for creating api's in nodejs, in the future with your help we hope it will be a framework. Just below you will see the folder structure created by sipas
+> this is a simple template for create apis with nodejs using mongo and JwT auth
 
 ```
-📦s'ipa
+📦template
  ┣ 📂__tests__
  ┃ ┣ 📂integration
  ┃ ┃ ┗ 📜main.spec.js
@@ -46,12 +46,8 @@
 The project is still under development and future updates will focus on the following tasks:
 
 - [x] Add Restfull Crud template
-- [x] Add a login system template
-- [x] Add a auth JWT template
-- [ ] Add a cli for creating 
-- [ ] Add Yarn or Npm option
-- [ ] Add Js or Ts option
-- [ ] Add Database option (PostgreSQL or MongoDB)
+- [] Add a login system template
+- [] Add a auth JWT template
 
 
 ## 💻 Prerequisites
@@ -72,29 +68,35 @@ Before starting, make sure you have met the following requirements:
   
  * You have read `this readme.md`.
 
-## 🚀 Installing (cloning) s'ipa
+## 🚀 Installing (cloning) this template
 
-To clone s'ipa, follow these steps:
+To clone, follow these steps:
 
 Linux, macOS and windows:
 ```
-git clone blabla <your project name>
-```
-
-## ☕ Using s'ipa
-
-To use s'ipa, follow these steps after install:
-
-```
+git clone https://github.com/opauwlo/node-js-boilerplate-api.git <your project name>
 cd <your project name>
-```
----
-```
 yarn i
 ```
+
+## 🚀 also you can use sipas, for installing s'ipas to use this template:
+
+Linux, macOS and windows:
+```
+npm i -g sipas
+```
+
+## ☕ Using with s'ipas
+
+To use s'ipas, follow these steps after install:
+
+```
+$ sipas
+```
 ---
 ```
-yarn dev
+cd  <your project name>
+yarn i
 ```
 ## 🧪 Tests
 We are using jest to perform the tests, to test the tests (funny) just run ``` yarn test``` inside your project
