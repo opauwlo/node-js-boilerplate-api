@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/opauwlo/node-js-boilerplate-api?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/opauwlo/node-js-boilerplate-api?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/opauwlo/node-js-boilerplate-api?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/opauwlo/node-js-boilerplate-api?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/opauwlo/node-js-boilerplate-api)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/opauwlo/node-js-boilerplate-api?style=for-the-badge)
 
 
